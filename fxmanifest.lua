@@ -12,7 +12,6 @@ server_script 'server.lua'
 
 shared_script '@qb-core/shared/main.lua'
 shared_script '@ox_lib/init.lua'
-shared_script 'config.lua'
 
 dependencies {
 	'lb-phone',
