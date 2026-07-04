@@ -43,6 +43,6 @@ Step 1: Download the resource from the releases page.
 
   # Customization:
 
-You can customize the messages by editing the message variables in the server.lua, a config file is soon to come for convenience.
+You can customize every email subject and body from the config file in [config.lua](config.lua). Edit the templates under the mailTemplates section and change the placeholders like {employeeName}, {bossName}, and {jobLabel} to suit your server.
 
 
