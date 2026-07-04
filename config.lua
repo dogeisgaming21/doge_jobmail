@@ -14,14 +14,17 @@ Config = {
             message = [[Hello {employeeName},
 
 I hope this message finds you well.
-I am pleased to inform you that you have been promoted to {newGradeName}!
-I cannot wait to see all you do in this new role!
 
-Regards,
+It is my pleasure to inform you that you have been promoted to **{newGradeName}**. This promotion reflects your hard work, dedication, and the contributions you have made to the team.
 
-    {bossName}
-    {jobGradeName}
-    {jobLabel}]]
+Congratulations on this well-deserved achievement. I am excited to see all that you accomplish in your new role and look forward to your continued success.
+
+Best regards,
+
+{bossName}
+{jobGradeName}
+{jobLabel}
+]]
         },
 
         demotion = {
@@ -29,14 +32,19 @@ Regards,
             message = [[Hello {employeeName},
 
 I hope this message finds you well.
-I regret to inform you that after a thorough review of your performance and other factors,
-you have been demoted to {newGradeName} from your previous rank of {oldGradeName}.
+
+After careful review and consideration, I regret to inform you that you have been demoted from **{oldGradeName}** to **{newGradeName}**. This decision was made following an evaluation of performance, conduct, and other relevant factors.
+
+While this outcome is not the one we had hoped for, we encourage you to view it as an opportunity for growth and development. We remain committed to supporting your success moving forward and hope to see continued improvement in your future performance.
+
+If you have any questions regarding this decision, please feel free to reach out.
 
 Regards,
 
-    {bossName}
-    {jobGradeName}
-    {jobLabel}]]
+{bossName}
+{jobGradeName}
+{jobLabel}
+]]
         },
 
         fire = {
@@ -44,28 +52,39 @@ Regards,
             message = [[Hello {employeeName},
 
 I hope this message finds you well.
-I regret to inform you that after a thorough review of your performance and other factors,
-you have been terminated from your position at {jobLabel}.
+
+After careful review and consideration, I regret to inform you that your employment with **{jobLabel}** has been terminated, effective immediately. This decision was made following an evaluation of performance, conduct, and other relevant factors.
+
+We appreciate the time and effort you have contributed during your tenure with the organization and wish you the best in your future endeavors.
+
+If you have any questions regarding this decision, please contact a member of management.
 
 Regards,
 
-    {bossName}
-    {jobGradeName}
-    {jobLabel}]]
+{bossName}
+{jobGradeName}
+{jobLabel}
+]]
         },
 
         hire = {
             subject = "Welcome to {jobLabel}",
             message = [[Hello {employeeName},
 
-This message is to congratulate you on your employment at {jobLabel}.
-I cannot wait to see you succeed!
+Congratulations!
+
+It is my pleasure to welcome you to **{jobLabel}**. We are excited to have you join our team and look forward to seeing the skills, dedication, and enthusiasm you bring to the role.
+
+We are confident that you will be a valuable addition to the organization, and we cannot wait to see you grow and succeed with us.
+
+Welcome aboard, and best of luck in your new position!
 
 Regards,
 
-    {bossName}
-    {jobGradeName}
-    {jobLabel}]]
+{bossName}
+{jobGradeName}
+{jobLabel}
+]]
         }
     }
 }
