@@ -43,6 +43,25 @@ Step 1: Download the resource from the releases page.
 
   # Customization:
 
-You can customize every email subject and body from the config file in [config.lua](config.lua). Edit the templates under the mailTemplates section and change the placeholders like {employeeName}, {bossName}, and {jobLabel} to suit your server.
+You can customize every email subject and body from the config file in [config.lua](config.lua). Edit the templates under the mailTemplates section and change the placeholders to suit your server.
+
+Supported placeholders:
+
+- `{employeeName}`: the full name of the employee receiving the mail
+- `{bossName}`: the full name of the boss/sender
+- `{newGradeName}`: the new job rank name after promotion or demotion
+- `{oldGradeName}`: the previous job rank name before promotion or demotion
+- `{jobLabel}`: the job label or department name
+- `{jobGradeName}`: the boss's current grade name
+- `{salutation}`: the gendered prefix from config (e.g. `Mr. ` or `Ms. `)
+- `{lastname}`: the employee's last name
+
+Example subject:
+
+- `Congratulations {salutation}{lastname}`
+
+Example message line:
+
+- `Hello {employeeName},`
 
 
